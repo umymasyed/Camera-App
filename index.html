@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Camera App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Advanced Camera App</h1>
+  </header>
+
+  <div id="camera-container">
+    <video id="video" autoplay></video>
+    <canvas id="canvas" style="display: none;"></canvas>
+  </div>
+
+  <div id="controls">
+    <button id="capture"><i class="fas fa-camera"></i> Capture</button>
+    <button id="toggle-camera"><i class="fas fa-sync-alt"></i> Switch Camera</button>
+    <button id="toggle-theme"><i class="fas fa-adjust"></i> Toggle Theme</button>
+  </div>
+
+  <div id="gallery">
+    <h2>Your Photos</h2>
+    <div id="photo-gallery"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
