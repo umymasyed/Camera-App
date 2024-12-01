@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+header {
+  background-color: #9f1b55;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+#camera-container {
+  margin: 20px auto;
+  max-width: 200px;
+  position: relative;
+}
+video, canvas {
+  width: 100%;
+  border: 3px solid #9f1b55;
+  border-radius: 10px;
+}
+#controls {
+  margin: 20px 0;
+}
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #9f1b55;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+button i {
+  margin-right: 5px;
+}
+#gallery {
+  margin: 20px auto;
+  max-width: 600px;
+}
+.photo-item {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+.photo-item img {
+  width: 120px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+.icon-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.delete-icon, .download-icon {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.delete-icon:hover {
+  background: #ff0000;
+}
+.download-icon:hover {
+  background: #007BFF;
+}
+.dark-mode {
+  background-color: #070729;
+  color: white;
+  border: 2px solid black;
+}
